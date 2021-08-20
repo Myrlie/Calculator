@@ -29,38 +29,38 @@ def exp(a,b):
     return expo
 
 
-while choix != 'a' or 's' or 'm' or 'd' or 'r' or 'e' or 'q':
-    if choix == 'a':
+while choix != 'a' or 'A' or 's' or 'S' or 'm' or 'M' or 'd' or 'D' or 'r' or 'R' or 'e' or 'E' or 'q' or 'Q':
+    if choix == 'a' or 'A':
         c = int(input('Entrer la premiere valeur: '))
         d = int(input('Entrer la seconde valeur: '))
         print('Le resultat est: ',add(c,d))
         break
-    elif choix == "s":
+    elif choix == 's' or 'S':
         c = int(input('Entrer la premiere valeur: '))
         d = int(input('Entrer la seconde valeur: '))
         print ('Le resultat est: ',sous(c,d))
         break
-    elif choix == 'm':
+    elif choix == 'm' or 'M':
         c = int(input('Entrer la premiere valeur: '))
         d = int(input('Entrer la seconde valeur: '))
         print('Le resultat est: ',mul(c,d))
         break
-    elif choix == 'd':
+    elif choix == 'd' or 'D':
         c = int(input('Entrer la premiere valeur: '))
         d = int(input('Entrer la seconde valeur: '))
         print('Le resultat est: ',div(c,d))
         break
-    elif choix == 'r':
+    elif choix == 'r' or 'R':
         c = int(input('Entrer la premiere valeur: '))
         d = int(input('Entrer la seconde valeur: '))
         print('Le resultat est: ',mol(c,d))
         break
-    elif choix == 'e':
+    elif choix == 'e' or 'E':
         c = int(input('Entrer la premiere valeur: '))
         d = int(input('Entrer la seconde valeur: '))
         print('Le resultat est: ',exp(c,d))
         break
-    elif choix == 'q':
+    elif choix == 'q' or 'Q':
         break
     else:
         print ('votre choix est incorrect veuillez essayer a nouveau ')
